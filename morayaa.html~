@@ -76,35 +76,35 @@
                         </ol>
                         <div class="carousel-inner " role="listbox" style="align-items: center;">
                             <div class="item active ">
-                                <img class="d-block img-fluid" src="/home/ameya/Portfolio/bootstrap-3.3.7-dist/images/Morayaa_images/Morayaa_home.png" alt="First slide">
+                                <img class="d-block img-fluid" src="images/Morayaa_images/Morayaa_home.png" alt="First slide">
                                 <div class="carousel-caption d-none d-md-block" style="background-color:rgba(255,126,14,0.7);">
                                     <h2>Morayaa</h2>
                                     <h3>An effort to integrate Culture and Technology.</h3>
                                 </div>
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid" src="/home/ameya/Portfolio/bootstrap-3.3.7-dist/images/Morayaa_images/Morayaa_map.png" alt="Second slide">
+                                <img class="d-block img-fluid" src="images/Morayaa_images/Morayaa_map.png" alt="Second slide">
                                 <div class="carousel-caption d-none d-md-block" style="background-color:rgba(255,126,14,0.7);">
                                     <h2>Map</h2>
                                     <h3>Location based information of Ganesh Mandals</h3>
                                 </div>
                             </div>
                             <div class="item ">
-                                <img class="d-block img-fluid" src="/home/ameya/Portfolio/bootstrap-3.3.7-dist/images/Morayaa_images/Morayaa_favourites.png" alt="Third slide">
+                                <img class="d-block img-fluid" src="images/Morayaa_images/Morayaa_favourites.png" alt="Third slide">
                                 <div class="carousel-caption d-none d-md-block" style="background-color:rgba(255,126,14,0.7);">
                                     <h2>Favourites</h2>
                                     <h3>Distance based list of your favourite mandals.</h3>
                                 </div>
                             </div>
                             <div class="item ">
-                                <img class="d-block img-fluid" src="/home/ameya/Portfolio/bootstrap-3.3.7-dist/images/Morayaa_images/Morayaa_gallery.png" alt="Third slide">
+                                <img class="d-block img-fluid" src="images/Morayaa_images/Morayaa_gallery.png" alt="Third slide">
                                 <div class="carousel-caption d-none d-md-block" style="background-color:rgba(255,126,14,0.7);">
                                     <h2>Gallery</h2>
                                     <h3>Upload and share pics with other app users.</h3>
                                 </div>
                             </div>
                             <div class="item ">
-                                <img class="d-block img-fluid" src="/home/ameya/Portfolio/bootstrap-3.3.7-dist/images/Morayaa_images/Morayaa_info.png" alt="Third slide">
+                                <img class="d-block img-fluid" src="images/Morayaa_images/Morayaa_info.png" alt="Third slide">
                                 <div class="carousel-caption d-none d-md-block" style="background-color:rgba(255,126,14,0.7);">
                                     <h2>Info Section</h2>
                                     <h3>Information regarding important Ganesh mandals in Pune City.</h3>
@@ -196,7 +196,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
                     <h3 style="color:#808080;" >Database  <br></h3>
-                    <h4 style="color:#808080;" >SQLite</h4>                    
+                    <h4 style="color:#808080;" >MySQL</h4>                    
                     
                 </div>
             </div>
@@ -209,7 +209,7 @@
                 <div class="col-lg-12">
                     <div style="border:1px solid black">
                     <h4 style="color:#808080;" > Ameya Kulkarni </h4>
-                    <h4 style="color:#808080;" > kulkani.ameya11@gmail.com </h4>
+                    <h4 style="color:#808080;" > kulkarni.ameya11@gmail.com </h4>
                     <div>
                 </div>                
             </div>   
