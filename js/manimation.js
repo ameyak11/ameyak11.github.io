@@ -16,10 +16,13 @@ $(document).ready(function () {
   let data = [
     {
       'name': 'eQTechnologic | Software Engineer ',
-      'logo': 'img/yocket.png',
-      'content': ["Built the <b>Design Language</b> for the portal; a unified SASS Framework with all the frequently used components, which allowed faster development of components and is used extensively by other developers.", "Developed a CRM internal tool for the Management team which has functionalities to log email, call and text conversations which are used to track the progress and applications of a lead.", "Devised a <b>recommendation system</b> that had the data of the candidates collected over the past 3 years, as a feature vector, which predicted a certain list of universities based on the student profile; Helping the candidate shortlist the schools for their further education", "<b>Technologies Stack :</b> Vue.js, CakePHP, Google Firebase, Git"],
-      'duration': 'Jan 2019 - May 2019',
-      'link': 'https://yocket.in'
+      'logo': '',
+      'content': [" Acquired a critical customer in a short period of 3 months, by developing a connector prototype that achieved data migration, integration, and business intelligence use cases for Oracle Agile PLM For Process Application.",
+        "Automated data model generation, by implementing recursive parsing algorithms to achieve extensible code and reduction in development time.",
+        "Implemented data integration and migration use cases for connectors to large - scale enterprise applications like Siemens Teamcenter, PTC Windchill, and Microsoft 365 Sharepoint by integrating REST API to achieve data transformation."
+        , "<b>Technologies :</b> Java, JUnit, CSharp, MySQL, Tomcat"],
+      'duration': 'July 2017 - Dec 2019',
+      'link': 'https://www.1eq.com/'
     },
     {
       'name': 'Software Engineer Intern @Senov Tech',
@@ -51,6 +54,7 @@ $(document).ready(function () {
       $('.modal-content').append('<li class="content-li" uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: ' + animationSpeed + '">' + x + '</li>');
       animationSpeed += 100;
     })
+    console.log($('.modal-content'));
     $('.modal-content').append('</ul>');
 
     // $('.modal-content').text(data[id].content);
