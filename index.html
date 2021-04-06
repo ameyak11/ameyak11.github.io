@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,21 +12,64 @@
     <link href="css/bootstrap-theme.css" rel="stylesheet" />
     <!-- Custom css file-->
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
 
     <!--font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/manimation.js"></script>
-    
-    
-  </head>
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
 
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <div id="modal-full" class="uk-modal-full uk-modal" uk-modal="">
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large uk-icon uk-close" type="button" uk-close=""><svg width="20"
+                    height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close-large">
+                    <line fill="none" stroke="#000" stroke-width="1.4" x1="1" y1="1" x2="19" y2="19"></line>
+                    <line fill="none" stroke="#000" stroke-width="1.4" x1="19" y1="1" x2="1" y2="19"></line>
+                </svg></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle uk-grid uk-grid-stack" uk-grid="">
+                <div class="uk-background-cover modal-color" uk-height-viewport="">
+                    <div class="uk-padding-large modal-content">
+
+                    </div>
+                </div>
+                <div class="uk-padding-large">
+                    <span>
+                        <img uk-img="" alt="image-logo" width="100px" class="modal-logo" src="#" uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: 100"
+                            style="visibility: hidden;">
+                    </span>
+                    <h1 class="modal-head" uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: 200"
+                        style="visibility: hidden;"></h1>
+                    <h5 uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: 300" style="visibility: hidden;">
+                        <span class="uk-icon uk-icon-image" style="background-image: url(img/date.jpg);"></span>
+                        <span class="modal-duration"></span>
+                    </h5>
+                    <h5 class="modal-link-parent" uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: 350"
+                        style="visibility: hidden;">
+                        <span class="uk-margin-small-right uk-icon" uk-icon="link"><svg width="20" height="20" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg" data-svg="link">
+                                <path fill="none" stroke="#000" stroke-width="1.1" d="M10.625,12.375 L7.525,15.475 C6.825,16.175 5.925,16.175 5.225,15.475 L4.525,14.775 C3.825,14.074 3.825,13.175 4.525,12.475 L7.625,9.375"></path>
+                                <path fill="none" stroke="#000" stroke-width="1.1" d="M9.325,7.375 L12.425,4.275 C13.125,3.575 14.025,3.575 14.724,4.275 L15.425,4.975 C16.125,5.675 16.125,6.575 15.425,7.275 L12.325,10.375"></path>
+                                <path fill="none" stroke="#000" stroke-width="1.1" d="M7.925,11.875 L11.925,7.975"></path>
+                            </svg></span>
+                        <a href="#" class="modal-link"></a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top bg-primary" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -34,102 +78,197 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Ameya Kulkarni</a>
+                
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse" style="float:right">
                 <ul class="nav nav-pills white">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Projects</a>
+                        <a class="page-scroll" href="#proj">Projects</a>
                     </li>
-                    
+
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+            
         </div>
-        <!-- /.container -->
-    </nav>
+        
+    </nav> -->
     <!-- Intro Section -->
-    <section id="intro" class="intro-section" >
-        <div class="container" style="padding-bottom: 50px;">
+    <section id="proj" class="about-section">
+        <div class="container" style="padding-bottom: 50px; margin-bottom: 50px;">
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3 col-sm-12 col-xs-12 col-md-6 col-md-offset-3">
-                    <div>
-                    </div>  
-                    <div class="widget-wrap" >
-                      <div class="textwidget"><div class="title">
-                        <a title="About Me"><img src="me.png" alt="About Me" width="200" height="200">
-                        </a>
-                        <h2>My name is Ameya Kulkarni. I'm a passionate Android Developer and a Machine Learning enthusiast.</h2> 
-                      </div>
-                    </div> 
+                <div class="uk-card uk-card-hover uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="margin-top: 50px;">
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="me.png" width="200" height="200" alt="" uk-img style="margin-top: 30px;">
+                        <!-- <canvas width="600" height="400"></canvas> -->
+                    </div>
+                    <div class="uk-card-body">
+                        <h2 class="uk-card-title">Ameya Nitin Kulkarni</h2>
+                        <p style="text-align: left;"><b style="color: blue; font-size: large;">Computer Science</b>
+                            Graduate student specializing in the <b style="color: darkorange; font-size: large;">Intelligent
+                                Systems</b>. <br>I am passionate about solving problems that have a social impact
+                            and enjoy exploring and learning new technologies.</p>
+                        <div style="width: 100%; text-align: left;">
+                            <a href="https://github.com/ameyak11" class="uk-icon-link uk-margin-small-right" uk-icon="icon: github; ratio:1.5"></a>
+                            <a href="https://www.linkedin.com/in/ameya-kulkarni-5b12bb131/" class="uk-icon-link uk-margin-small-right"
+                                uk-icon="icon: linkedin; ratio:1.5"></a>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+            <div class="row">
+                <h3 class="uk-heading-divider">Projects and Work Experience</h3>
+            </div>
+            <div class="row">
+                <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: true">
+                    <div>
+                        <div class="uk-card darkblue uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle item"
+                            style="height: 130px" data-id="0" data-color="blue">BluAge Internship
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card red uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 130px">eQTechnologic SDE
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card blue uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 150px">GarageBot</div>
+                    </div>
+                    <div>
+                        <div class="uk-card green uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 120px">Database Implementation</div>
+                    </div>
+                    <div>
+                        <div class="uk-card purple uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 150px">English - Hindi Translator</div>
+                    </div>
+                    <div>
+                        <div class="uk-card orange uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 100px">Morris Game Player
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card blue uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 150px">Varta (Smart News)</div>
+                    </div>
+                    <div>
+                        <div class="uk-card blackglass uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 100px">Creative Prims
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card darkblue uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 120px">Digital India</div>
+                    </div>
+                    <div>
+                        <div class="uk-card orange uk-card-hover item uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 120px">Morayaa - Community Service</div>
+                    </div>
+                    <div>
+                        <div class="uk-card green uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 130px">Distributed System Eccentricity Finder</div>
+                    </div>
+                    <div>
+                        <div class="uk-card purple uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 130px">Distributed System Mutual Exclusion</div>
+                    </div>
+                    <div>
+                        <div class="uk-card red uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 120px">Wine Quality Precidtion NeuralNet</div>
+                    </div>
+                    <div>
+                        <div class="uk-card blue uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 130px">Tweet Clustering</div>
+                    </div>
+                    <div>
+                        <div class="uk-card blackglass uk-card-hover uk-card-default uk-flex uk-flex-center uk-flex-middle"
+                            style="height: 130px">PopShape Game
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row" style="padding-top:20px">
+                <div class="col-lg-12">
+                    <div style="border:1px solid black">
+                        <h4 style="color:#808080;margin-top: 10px;"> Ameya Kulkarni </h4>
+                        <h4 style="color:#808080; margin-top: 0px;"> kulkarni.ameya11@gmail.com </h4>
+                    </div>
+                </div>
+            </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section" >
+    <!-- <section id="about" class="about-section">
         <div class="container" style="padding-bottom: 50px; clear: both;">
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Projects</h1>
                 </div>
                 <div id="mhoverleft" class="col-lg-6 col-sm-6 col-xs-12 col-md-6 mthumbnail animation-element slide-left">
-                        <h2>Morayaa</h2>
-                        <img src="images/morayaa_main.png" alt="Morayaa">
-                        <div  id="mbox" style="position:absolute; top:0; width:100%; height:100%; background-color:rgba(255,126,14,0.7); visibility:hidden" onClick="location.href='morayaa.html'">
-                            <h3 style="position:absolute;top: 30%; left: 25%; color:white;font-weight: bold;">
-                             Morayaa
-                            </h3>
-                            <h4 style="position:absolute;top: 45%; left: 25%; color:white; font-weight: bold;font-style: italic; " align="left">
-                             An effort to integrate culture and technology. <br>Android App to help people locate Ganesh Mandals alongwith essential information.
-                            </h4>
-                        </div>
+                    <h2>Morayaa</h2>
+                    <img src="images/morayaa_main.png" alt="Morayaa">
+                    <div id="mbox" style="position:absolute; top:0; width:100%; height:100%; background-color:rgba(255,126,14,0.7); visibility:hidden"
+                        onClick="location.href='morayaa.html'">
+                        <h3 style="position:absolute;top: 30%; left: 25%; color:white;font-weight: bold;">
+                            Morayaa
+                        </h3>
+                        <h4 style="position:absolute;top: 45%; left: 25%; color:white; font-weight: bold;font-style: italic; "
+                            align="left">
+                            An effort to integrate culture and technology. <br>Android App to help people locate Ganesh
+                            Mandals alongwith essential information.
+                        </h4>
+                    </div>
                 </div>
                 <div id="mhoverright" class="col-lg-6 col-sm-6 col-xs-12 col-md-6 mthumbnail animation-element slide-right">
                     <h2>Varta</h2>
                     <img src="images/varta_main.png" alt="Varta">
-                    <div id="mbox" style="position:absolute; top:0; width:100%; height:100%; background-color:rgba(28,173,228,0.7); visibility:hidden" onClick="location.href='varta.html'">
+                    <div id="mbox" style="position:absolute; top:0; width:100%; height:100%; background-color:rgba(28,173,228,0.7); visibility:hidden"
+                        onClick="location.href='varta.html'">
                         <h3 style="position:absolute;top: 30%; left: 25%; color:white;font-weight: bold;">
-                             Varta
-                            </h3>
-                            <h4 style="position:absolute;top: 45%; left: 25%; color:white; font-weight: bold; font-style: italic;" align="left">
-                             Stay updated with the latest news with Varta. <br>Android App to provide users with summarized news articles backed by a machine learning algorithm. 
-                            </h4>
+                            Varta
+                        </h3>
+                        <h4 style="position:absolute;top: 45%; left: 25%; color:white; font-weight: bold; font-style: italic;"
+                            align="left">
+                            Stay updated with the latest news with Varta. <br>Android App to provide users with
+                            summarized news articles backed by a machine learning algorithm.
+                        </h4>
                     </div>
                 </div>
-                
-            </div>
-            <div class="row" style="padding-top:20px">
+
+            </div> -->
+    <!-- <div class="row" style="padding-top:20px">
                 <div class="col-lg-12">
                     <div style="border:1px solid black">
-                    <h4 style="color:#808080;" > Ameya Kulkarni </h4>
-                    <h4 style="color:#808080;" > kulkarni.ameya11@gmail.com </h4>
-                    <div>
-                </div>                
-            </div>            
-        </div>
-    </section>
-
-    
+                        <h4 style="color:#808080;"> Ameya Kulkarni </h4>
+                        <h4 style="color:#808080;"> kulkarni.ameya11@gmail.com </h4>
+                        <div>
+                        </div>
+                    </div>
+                </div> -->
+    <!-- </section> -->
 
 
-  
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/manimation.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- JavaScript for collapsing navbar -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-    
-  
-    </body>
-</html>
 
+
+</body>
+
+</html>

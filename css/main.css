@@ -1,0 +1,58 @@
+.blue {
+  background: #2b97f3;
+  color: white;
+}
+.blue:hover {
+  background: #2b97f3 !important;
+}
+
+.orange {
+  background: #f09133;
+  color: white;
+}
+
+.orange:hover {
+  background: #f09133 !important;
+}
+.darkblue {
+  background: #0961aa;
+  color: white;
+}
+.darkblue:hover {
+  background: #0961aa !important;
+}
+
+.red {
+  background: rgb(243, 60, 60);
+  color: white;
+}
+
+.red:hover {
+  background: rgb(243, 60, 60) !important;
+}
+
+.green {
+  background: #8bc34a;
+  color: white;
+}
+.green:hover {
+  background: #8bc34a !important;
+}
+
+.blackglass {
+  background: #000000;
+  color: white;
+}
+
+.blackglass:hover {
+  background: #000000 !important;
+}
+
+.purple {
+  background: #6200ee;
+  color: white;
+}
+
+.purple:hover {
+  background: #6200ee !important;
+}
