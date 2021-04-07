@@ -31,7 +31,16 @@ $(document).ready(function () {
         , "<b>Technologies :</b> Java, JUnit, CSharp, MySQL, Tomcat"],
       'duration': 'July 2017 - Dec 2019',
       'link': 'https://www.1eq.com/'
+    }, {
+      'name': 'GarageBot | Android Dev',
+      'logo': '',
+      'content': ["Designed and developed the entire Android Front-End infrastructure which reduces job card management time by 50\%, resulting in a 10\% rise in revenue, and is actively used by over 300 vehicle service stations daily.",
+        "Increased application speed and availability, by implementing a caching and synchronization framework to reduce API calls by over 50\%, resulting in a rise in customers for the product."
+        , "<b>Technologies :</b> Java, Android, SQLite <br><br><br><br><br><br><br><br><br><br>"],
+      'duration': 'Digital Assistant for Vehicle Service Stations<br>June 2017 – June 2019',
+      'link': 'https://garagebot.in/html/'
     }
+
   ]
 
   $(".item").click(function () {
