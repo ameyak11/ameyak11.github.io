@@ -1,10 +1,12 @@
 .modal-content{
     font-size: 20px;
     padding-top: 15vh;
-    color: #000000
+    color: white;
+    background-color: rgba(255, 255, 255, 0.0);
 }
-.modal-content h1{
-    color: black;
+.modal-content h2{
+    color: white;
+    padding-left: 100px;
 }
 .content-li{
     padding: 10px;
@@ -33,8 +35,8 @@
 }
 
 .blue {
-  background: #2b97f3;
-  background-color: #2b97f3;
+  background: #2b96f3f3;
+  background-color: #2b96f3f3;
   color: white;
 }
 .blue:hover {
@@ -42,7 +44,7 @@
 }
 
 .orange {
-  background: #f09133;
+  background: #f18e2be8;
   color: white;
 }
 
@@ -50,7 +52,7 @@
   background: #f09133 !important;
 }
 .darkblue {
-  background: #0961aa;
+  background: #0962aaee;
   color: white;
 }
 .darkblue:hover {
@@ -58,7 +60,7 @@
 }
 
 .red {
-  background: rgb(243, 60, 60);
+  background: rgba(248, 56, 56, 0.863);
   color: white;
 }
 
@@ -67,7 +69,7 @@
 }
 
 .green {
-  background: #8bc34a;
+  background: #8bc34aee;
   color: white;
 }
 .green:hover {
@@ -84,7 +86,7 @@
 }
 
 .purple {
-  background: #6200ee;
+  background: #6300eee8;
   color: white;
 }
 

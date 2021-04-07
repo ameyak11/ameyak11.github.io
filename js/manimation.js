@@ -15,6 +15,14 @@
 $(document).ready(function () {
   let data = [
     {
+      'name': 'BluAge Corporation | Software Developer Intern ',
+      'logo': '',
+      'content': ["Accomplished Digital Transformation of legacy application to modern architecture by transforming, debugging, and testing a high volume of code from COBOL to C\# and AngularJS.",
+        "Mentored three new team members to ensure smooth onboarding to the team."
+        , "<b>Technologies :</b> CSharp, MySQL, IIS Server, COBOL <br><br><br><br><br><br><br><br><br><br>"],
+      'duration': 'Dec 2020 - Present',
+      'link': 'https://www.bluage.com/'
+    }, {
       'name': 'eQTechnologic | Software Engineer ',
       'logo': '',
       'content': [" Acquired a critical customer in a short period of 3 months, by developing a connector prototype that achieved data migration, integration, and business intelligence use cases for Oracle Agile PLM For Process Application.",
@@ -34,20 +42,18 @@ $(document).ready(function () {
     $('.modal-content').text('');
     let animationSpeed = 100;
     if (data[id].gray)
-      $('.modal-content').append('<h1 class="dark" uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: ' + animationSpeed + '">What did I work on?</h1>');
+      $('.modal-content').append('<h2 class="dark" uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: ' + animationSpeed + '">My Contribution</h2>');
     else
-      $('.modal-content').append('<h1 uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: ' + animationSpeed + '">What did I work on?</h1>');
+      $('.modal-content').append('<h2 uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: ' + animationSpeed + '">My Contribution</h2>');
 
     animationSpeed += 100;
     $('.modal-content').append('<ul class="uk-list uk-list-bullet">');
     (data[id].content).map((x) => {
       $('.modal-content').append('<li class="content-li" uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: ' + animationSpeed + '">' + x + '</li>');
       animationSpeed += 100;
-    })
-    console.log($('.modal-content'));
+    });
     $('.modal-content').append('</ul>');
 
-    // $('.modal-content').text(data[id].content);
     $('.modal-duration').text(data[id].duration);
 
     $('.modal-color').attr('class', 'uk-background-cover modal-color');
