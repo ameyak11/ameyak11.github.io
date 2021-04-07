@@ -23,17 +23,7 @@ $(document).ready(function () {
         , "<b>Technologies :</b> Java, JUnit, CSharp, MySQL, Tomcat"],
       'duration': 'July 2017 - Dec 2019',
       'link': 'https://www.1eq.com/'
-    },
-    {
-      'name': 'Software Engineer Intern @Senov Tech',
-      'logo': 'img/senov.png',
-      'content': [
-        "Supervised the development of <b>DietKraft – a machine learning dietitian software</b>. DietKraft was a unified application which helped the doctors on their entire process; from managing patients to printing custom diet-charts.",
-        "I extracted the nutrition data for 2000+ food items using Beautiful soup to make a food-catalogue which was used to create diet charts, and modeled interface for the patient-dietitian interaction",
-        "<b>Technology Stack -</b> Laravel, React.js, Materialize.css."
-      ],
-      'duration': 'May 2018 - August 2018'
-    },
+    }
   ]
 
   $(".item").click(function () {
